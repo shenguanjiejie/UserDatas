@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>0A2AEBC1-1ADF-44FE-BAD6-E3E0717A393B</UUID>
+        <nextObjectID>105</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>ModelVersion</key>
+                    <integer>1</integer>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>641</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Registration</key>
+                        <data>
+		aTRXO64OAd+3/zEKdN+RSGcynizXWHjvJbXBfsMRt0g=
+		</data>
+                        <key>RegistryFolder</key>
+                        <data>
+		Ujkr82wcM/U1wkh1vRQ+ey2t2AkxtNP4iimqpaHaM8w=
+		</data>
+                        <key>RegistryNode</key>
+                        <data>
+		FgtAzNcUxdPivNZKQiAslrDu795IlsYdkgu8iRW5f1Q=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array>
+                        <string></string>
+                    </array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="REGISTRYFOLDER" id="z102">
+        <attribute name="userinfodata" type="binary">YnBsaXN0MDDUAQIDBAUGFhdYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKMH
+CA9VJG51bGzTCQoLDA0OV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OgoIAC0hAREhNaJGNsYXNzbmFtZVgkY2xhc3Nlc18QE05TTXV0YWJsZURpY3Rpb25hcnmjEhQVXE5TRGljdGlvbmFyeVhOU09iamVjdF8QD05TS2V5ZWRBcmNoaXZlctEYGVRyb290gAEIERojLTI3O0FIUFtiY2Rma3Z/lZmmr8HEyQAAAAAAAAEBAAAAAAAAABoAAAAAAAAAAAAAAAAAAADL
+</attribute>
+        <attribute name="name" type="string">/</attribute>
+        <relationship name="parent" type="1/1" destination="REGISTRYFOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="REGISTRYNODE" idrefs="z105 z103"></relationship>
+    </object>
+    <object type="REGISTRATION" id="z103">
+        <attribute name="path" type="string">/Users/w/Desktop/workspace/ios</attribute>
+        <attribute name="userinfodata" type="binary">YnBsaXN0MDDUAQIDBAUGQ0RYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8Q
+FwcIIyQlJicoKSorLC0xMjk6Ozw9Pj9AVSRudWxs0wkKCwwXIldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzqg0ODxAREhMUFRaAAoADgASABYAGgAeACIAJgAqAC6oYGRobHB0eHxoZgAyAD4AQgBGAEoATgBSAFYAQgA+AFl8QE1NlbGVjdGVkRmlsdGVySXRlbXNfEBJSdW5QcmVDb21taXRTY3JpcHRfEBNQcmVDb21taXRTY3JpcHRUeXBlXlRyYW5zY3JpcHRQYXRoXxAbVjRGU0V2ZW50TW9uaXRvckxhc3RFdmVudElkXxAXUmVsZWFzZUxvY2tzQWZ0ZXJDb21taXRfEBRMYXN0TG9jYWxDaGFuZ2VDb3VudF5MYXN0TG9nTWVzc2FnZV8QFFBvc3RDb21taXRTY3JpcHRUeXBlXxATUnVuUG9zdENvbW1pdFNjcmlwdNIKCy4woS+ADYAOV2NoYW5nZWTSMzQ1NlokY2xhc3NuYW1lWCRjbGFzc2VzV05TQXJyYXmiNzhXTlNBcnJheVhOU09iamVjdAgQAF8QbC9Vc2Vycy93L0xpYnJhcnkvQXBwbGljYXRpb24gU3VwcG9ydC9Db3JuZXJzdG9uZS9UcmFuc2NyaXB0cy83MTQ4NDkxOC0xMkY2LTRCMjYtQjEyMS1GOEM5QzAyOEZDQzkudHJhbnNjcmlwdBIAKjRQCRAKa2tjVyiMA4vViMVP7nUzi/d2hGOlU+PSMzRBQlxOU0RpY3Rpb25hcnmiQThfEA9OU0tleWVkQXJjaGl2ZXLRRUZUcm9vdIABAAgAEQAaACMALQAyADcAUQBXAF4AZgBxAHgAgwCFAIcAiQCLAI0AjwCRAJMAlQCXAKIApACmAKgAqgCsAK4AsACyALQAtgC4AM4A4wD5AQgBJgFAAVcBZgF9AZMBmAGaAZwBngGmAasBtgG/AccBygHSAdsB3AHeAk0CUgJTAlUCbAJxAn4CgQKTApYCmwAAAAAAAAIBAAAAAAAAAEcAAAAAAAAAAAAAAAAAAAKd
+</attribute>
+        <attribute name="name" type="string">ios</attribute>
+        <relationship name="parent" type="1/1" destination="REGISTRYFOLDER" idrefs="z102"></relationship>
+    </object>
+    <object type="REGISTRATION" id="z105">
+        <attribute name="path" type="string">/Users/w/Desktop/workspace/duDu</attribute>
+        <attribute name="userinfodata" type="binary">YnBsaXN0MDDUAQIDBAUG9fZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8Q
+RAcIKSorLC0uLzAxMjM0NTY3ODk9PkVGR0hXYWJjZGVmanR1doCBgoyNjpiZmqSlprCxsry9vsjJytTV1uDh4uzt7vLzVSRudWxs0wkKCwwaKFdOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzrQ0ODxAREhMUFRYXGBmAAoADgASABYAGgAeACIAJgAqAC4AMgA2ADq0bHB0cHxwhIiMkHCMngA+AEIARgBCAEoAQgBWAFoAXgBiAEIAXgEKAQ15UcmFuc2NyaXB0UGF0aF8QE1J1blBvc3RDb21taXRTY3JpcHRfEBtWNEZTRXZlbnRNb25pdG9yTGFzdEV2ZW50SWRfEBJSdW5QcmVDb21taXRTY3JpcHRfEBNTZWxlY3RlZEZpbHRlckl0ZW1zXxAYQ29tcGFyZUFnYWluc3RSZXBvc2l0b3J5XxAUTGFzdExvY2FsQ2hhbmdlQ291bnRfEBdSZWxlYXNlTG9ja3NBZnRlckNvbW1pdF8QFFBvc3RDb21taXRTY3JpcHRUeXBlXUNvbHVtbkxheW91dDNfEBBTaG93SWdub3JlZEZpbGVzXxATUHJlQ29tbWl0U2NyaXB0VHlwZV5MYXN0TG9nTWVzc2FnZV8QbC9Vc2Vycy93L0xpYnJhcnkvQXBwbGljYXRpb24gU3VwcG9ydC9Db3JuZXJzdG9uZS9UcmFuc2NyaXB0cy8yRTc1Njg3MS03ODM1LTQ2NzItODNBRi0zRkE1MTk2Nzk4QUQudHJhbnNjcmlwdAgSACo0UNIKCzo8oTuAE4AUV2NoYW5nZWTSP0BBQlokY2xhc3NuYW1lWCRjbGFzc2VzV05TQXJyYXmiQ0RXTlNBcnJheVhOU09iamVjdBB8CRAA0goLSVasSktMTU5PUFFSU1RVgBmAIIAjgCaAKYAsgC+AMoA1gDiAO4A+gEHTCQoLWFxgo1laW4AagBuAHKNdHF+AHYAQgB6AH1V3aWR0aFZoaWRkZW5aaWRlbnRpZmllciJDm1EAVG5hbWXSP0BnaF8QE05TTXV0YWJsZURpY3Rpb25hcnmjZ2lEXE5TRGljdGlvbmFyedMJCgtrb2CjWVpbgBqAG4Aco3AccoAhgBCAIoAfIkFgAABWc3RhdHVz0wkKC3d7YKNZWluAGoAbgByjfBx+gCSAEIAlgB8iQWAAAFxuZXN0ZWRTdGF0dXPTCQoLg4dgo1laW4AagBuAHKOIHIqAJ4AQgCiAHyJBYAAAXxAQcmVwb3NpdG9yeVN0YXR1c9MJCguPk2CjWVpbgBqAG4Aco5QcloAqgBCAK4AfIkMSAABUZGF0ZdMJCgubn2CjWVpbgBqAG4Aco6AcooAtgBCALoAfIkJ8AABUc2l6ZdMJCgunq2CjWVpbgBqAG4Aco6wcroAwgBCAMYAfIkMWAABUa2luZNMJCguzt2CjWVpbgBqAG4Aco7gcuoAzgBCANIAfIkKCAABYcmV2aXNpb27TCQoLv8Ngo1laW4AagBuAHKPEHMaANoAQgDeAHyJBYAAAWHByb3BlcnR50wkKC8vPYKNZWluAGoAbgByj0BzSgDmAEIA6gB8iQWAAAFtsb2NrLXN0YXR1c9MJCgvX22CjWVpbgBqAG4Aco9wc3oA8gBCAPYAfIkFgAABVZGVwdGjTCQoL4+dgo1laW4AagBuAHKPoHOqAP4AQgECAHyJDFgAAVmF1dGhvctI/QO/wXk5TTXV0YWJsZUFycmF5o+/xRFdOU0FycmF5alb+ckeYhInIACAAYgB1AGdP7lkN0j9AafSiaURfEA9OU0tleWVkQXJjaGl2ZXLR9/hUcm9vdIABAAgAEQAaACMALQAyADcAfgCEAIsAkwCeAKUAswC1ALcAuQC7AL0AvwDBAMMAxQDHAMkAywDNANsA3QDfAOEA4wDlAOcA6QDrAO0A7wDxAPMA9QD3AQYBHAE6AU8BZQGAAZcBsQHIAdYB6QH/Ag4CfQJ+AoMCiAKKAowCjgKWApsCpgKvArcCugLCAssCzQLOAtAC1QLiAuQC5gLoAuoC7ALuAvAC8gL0AvYC+AL6AvwDAwMHAwkDCwMNAxEDEwMVAxcDGQMfAyYDMQM2AzsDQANWA1oDZwNuA3IDdAN2A3gDfAN+A4ADggOEA4kDkAOXA5sDnQOfA6EDpQOnA6kDqwOtA7IDvwPGA8oDzAPOA9AD1APWA9gD2gPcA+ED9AP7A/8EAQQDBAUECQQLBA0EDwQRBBYEGwQiBCYEKAQqBCwEMAQyBDQENgQ4BD0EQgRJBE0ETwRRBFMEVwRZBFsEXQRfBGQEaQRwBHQEdgR4BHoEfgSABIIEhASGBIsElASbBJ8EoQSjBKUEqQSrBK0ErwSxBLYEvwTGBMoEzATOBNAE1ATWBNgE2gTcBOEE7QT0BPgE+gT8BP4FAgUEBQYFCAUKBQ8FFQUcBSAFIgUkBSYFKgUsBS4FMAUyBTcFPgVDBVIFVgVeBXMFeAV7BY0FkAWVAAAAAAAAAgEAAAAAAAAA+QAAAAAAAAAAAAAAAAAABZc=
+</attribute>
+        <attribute name="name" type="string">duDu</attribute>
+        <relationship name="parent" type="1/1" destination="REGISTRYFOLDER" idrefs="z102"></relationship>
+    </object>
+</database>
